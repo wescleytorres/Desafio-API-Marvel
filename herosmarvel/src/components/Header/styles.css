@@ -1,0 +1,28 @@
+#main-header {
+    background: #8A2BE2;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+h1 {
+    width: 100%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 40px;
+    font-style: italic;
+    text-shadow: 3px 3px red;
+    transform: rotate(-5deg);
+    font-size: 50px;
+}
+
+.cidade-fundo {
+    width: 100%;
+}
+
+.Menu {
+    height: 3rem;
+    background: #000000;
+}
