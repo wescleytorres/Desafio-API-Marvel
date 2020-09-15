@@ -50,7 +50,7 @@
 .actions1 {
     position: absolute;
     min-width: 850px;
-    height: 80%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

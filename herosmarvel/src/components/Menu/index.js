@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
 
 import './styles.css'
 
@@ -19,13 +18,13 @@ export default class Menu extends Component {
                     <input className="pesquisa" type="text" placeholder="Search..."
                     value={this.state.pesquisa}
                     onChange={this.handleSearch} />
-                <a className="btn_busca" href={`/busca/${this.state.pesquisa}`} type="text">
+                <a className="btn_busca" href={`/busca/${this.state.pesquisa}`}>
                     <img src={'/img/icon/busca.png'} alt="icon-busca"/>
                 </a>
                 </div>
 
                 <div className="perfil">
-                    <a href={'/perfil'}>VINGADOR MAIS FORTE</a>
+                    <a href="/perfil">VINGADOR MAIS FORTE</a>
                 </div>
             </nav>
         )
