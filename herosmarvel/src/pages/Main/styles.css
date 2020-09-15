@@ -4,7 +4,7 @@ a {
 }
 
 .heros-list {
-    min-height: 100%;
+    max-height: 100%;
     background: url(/img/fundo-heros.jpg);
     background-size: cover;
 }
@@ -27,6 +27,7 @@ a {
     border-right: 3px solid black;
     box-shadow: -2px 1px 1px 1px rgba(0, 0, 0, 0.5);
     margin-top: 20px;
+    margin-bottom: 20px;
     transition: all .2s;
 }
 
@@ -46,45 +47,4 @@ a {
     margin-top: 10px;
     text-align: center;
     color: black;
-}
-
-.actions {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-top: 20px;
-}
-
-.actions div {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.pool-costas {
-    width: 6rem;
-    margin-left: 6px;
-    transform: translateY(3px);
-}
-
-.pool-frente {
-    width: 7rem;
-    transform: translateY(3.5px);
-}
-
-.actions button {
-    background: #8A2BE2;
-    width: 7rem;
-    height: 2rem;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all .2s;
-}
-
-.actions button:hover {
-    background: red;
-    color: white;
 }

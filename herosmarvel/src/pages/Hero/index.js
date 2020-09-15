@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import api from '../../services/api'
+import api from '../../services/api';
+import { Link } from 'react-router-dom'
 
 import './styles.css'
 
@@ -23,7 +24,7 @@ export default class Hero extends Component {
                     <img src={'/img/info-hero.jpg'} alt="info-hero" />
                 <div className="page-hero">
                     <img className="img-hero2"
-                    src={`${hero?.thumbnail?.path}.jpg`}
+                    src={`${hero?.thumbnail?.path}.${hero?.thumbnail?.extension}`}
                     alt={hero.name}/>
 
                     <div className="data-hero">
@@ -31,7 +32,13 @@ export default class Hero extends Component {
                         <p className="bio-hero">{hero.description}</p>
                     </div>
                 </div>
+                <div className="actions1">
+                    <img className="pool-costas" src={'/img/pool-deitado-costas.png'}
+                    alt="pool-deitado-costas" />
+                    <Link to={'/'}><button>Voltar</button></Link>
+                </div>
             </div>
+
         )
     }
 }

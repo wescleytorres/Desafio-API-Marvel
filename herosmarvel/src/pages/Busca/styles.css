@@ -1,0 +1,29 @@
+.actions2 {
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.pool-frente {
+    width: 7rem;
+    transform: translateY(3.5px);
+}
+
+.actions2 button {
+    background: #8A2BE2;
+    width: 7rem;
+    height: 2rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.actions2 button:hover {
+    background: red;
+    color: white;
+}

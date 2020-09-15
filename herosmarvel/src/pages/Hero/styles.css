@@ -1,6 +1,6 @@
 .hero-info {
     background: url(/img/branco4.png);
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,4 +45,36 @@
     align-items: center;
     font-family: Comic Sans MS;
     font-style: italic;
+}
+
+.actions1 {
+    position: absolute;
+    min-width: 850px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.pool-costas {
+    width: 6rem;
+    margin-left: 6px;
+    transform: translateY(3px);
+}
+
+.actions1 button {
+    background: #8A2BE2;
+    width: 7rem;
+    height: 2rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.actions1 button:hover {
+    background: red;
+    color: white;
 }

@@ -16,7 +16,7 @@ export default class Main extends Component {
     loadCharacters = async () => {
         const resp = await api.get('v1/public/characters', {
             params: {
-              limit: 10,
+              limit: 30,
             },
           })
           
@@ -36,7 +36,7 @@ export default class Main extends Component {
                         <div className="card-hero" key={heros.id}>
                             <Link to={`/hero/${heros.id}`}>
                                 <img className="img-hero"
-                                src={`${heros.thumbnail.path}.jpg`}
+                                src={`${heros.thumbnail.path}.${heros.thumbnail.extension}`}
                                 alt={heros.name}/>
 
                                 <h2 className="name-hero">
@@ -45,19 +45,6 @@ export default class Main extends Component {
                             </Link>
                         </div>
                     ))}
-                </div>
-                
-                <div className="actions">
-                    <div>
-                        <img className="pool-costas" src={'/img/pool-deitado-costas.png'}
-                        alt="pool-deitado-costas" />
-                        <button>Anterior</button>
-                    </div>
-                    <div>
-                        <img className="pool-frente" src={'/img/pool-deitado-frente.png'}
-                        alt='pool-deitado-frente' />
-                        <button>Próximo</button>
-                    </div>
                 </div>
             </div>
         )
