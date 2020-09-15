@@ -1,0 +1,90 @@
+
+a {
+    text-decoration: none;
+}
+
+.heros-list {
+    min-height: 100%;
+    background: url(/img/fundo-heros.jpg);
+    background-size: cover;
+}
+
+.list-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card-hero {
+    width: 200px;
+    height: 300px;
+    background: white;
+    border-top: 2px solid black;
+    border-left: 3px solid black;
+    border-bottom: 2px solid black;
+    border-right: 3px solid black;
+    box-shadow: -2px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    transition: all .2s;
+}
+
+.card-hero:hover {
+    width: 250px;
+    height: 350px;
+    box-shadow: -3px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.img-hero {
+    width: 100%;
+}
+
+.name-hero {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+.actions {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.actions div {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pool-costas {
+    width: 6rem;
+    margin-left: 6px;
+    transform: translateY(3px);
+}
+
+.pool-frente {
+    width: 7rem;
+    transform: translateY(3.5px);
+}
+
+.actions button {
+    background: #8A2BE2;
+    width: 7rem;
+    height: 2rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.actions button:hover {
+    background: red;
+    color: white;
+}

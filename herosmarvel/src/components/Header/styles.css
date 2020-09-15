@@ -6,12 +6,12 @@
     justify-content: flex-end;
 }
 
-h1 {
+.titulo {
     width: 100%;
     position: absolute;
     color: white;
     text-align: center;
-    top: 40px;
+    top: 30px;
     font-style: italic;
     text-shadow: 3px 3px red;
     transform: rotate(-5deg);
@@ -20,9 +20,4 @@ h1 {
 
 .cidade-fundo {
     width: 100%;
-}
-
-.Menu {
-    height: 3rem;
-    background: #000000;
 }

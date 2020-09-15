@@ -1,0 +1,48 @@
+.hero-info {
+    background: url(/img/branco4.png);
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.page-hero {
+    max-width: 850px;
+    position: absolute;
+    display: flex;
+}
+
+.img-hero2 {
+    width: 300px;
+    background: white;
+    border-top: 2px solid black;
+    border-left: 3px solid black;
+    border-bottom: 2px solid black;
+    border-right: 3px solid black;
+    box-shadow: -2px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.data-hero {
+    background: white;
+    border-top: 2px solid black;
+    border-left: 3px solid black;
+    border-bottom: 2px solid black;
+    border-right: 3px solid black;
+    box-shadow: -2px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-left: 10px;
+}
+
+.name-hero2 {
+    margin: 10px;
+}
+
+.bio-hero {
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-family: Comic Sans MS;
+    font-style: italic;
+}
