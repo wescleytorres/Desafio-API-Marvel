@@ -6,7 +6,7 @@
 HEROS MARVEL
 </h1>
 
-<p align="center">Uma pequena lista de card's de herois mas podendo pesquisar por herois que preferir e ver suas Bio! SPA com Reactjs consumindo a API Marvel.</p>
+<p align="center">Uma pequena lista de card's de heroes mas podendo pesquisar por heroes que preferir e ver suas Bio! SPA com Reactjs consumindo a API Marvel.</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
@@ -21,7 +21,7 @@ HEROS MARVEL
 
 <hr />
 
-## Features
+## Technologies
 
 - ⚛️ **React Js** — Um Biblioeta JavaScript para construir User interfaces.
 - 💹 **Node Js** — Um framework web para Node Js.
