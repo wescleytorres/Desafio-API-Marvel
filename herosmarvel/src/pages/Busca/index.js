@@ -18,7 +18,6 @@ export default class Busca extends Component {
             }
         })
         this.setState({ heros: resp.data.data.results })
-        console.log(resp)
     }
 
 
